@@ -1,0 +1,75 @@
+{
+  "name": "CoinFlip",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [
+        {
+          "name": "beaconApp",
+          "type": "application",
+          "desc": ""
+        },
+        {
+          "name": "minBet",
+          "type": "uint64",
+          "desc": ""
+        },
+        {
+          "name": "maxBet",
+          "type": "uint64",
+          "desc": ""
+        }
+      ],
+      "desc": "",
+      "returns": {
+        "type": "void",
+        "desc": ""
+      }
+    },
+    {
+      "name": "optInToApplication",
+      "args": [],
+      "desc": "",
+      "returns": {
+        "type": "void",
+        "desc": ""
+      }
+    },
+    {
+      "name": "flipCoin",
+      "args": [
+        {
+          "name": "bet",
+          "type": "pay",
+          "desc": ""
+        },
+        {
+          "name": "outcome",
+          "type": "uint64",
+          "desc": ""
+        }
+      ],
+      "desc": "",
+      "returns": {
+        "type": "uint64",
+        "desc": ""
+      }
+    },
+    {
+      "name": "settle",
+      "args": [
+        {
+          "name": "beaconApp",
+          "type": "application",
+          "desc": ""
+        }
+      ],
+      "desc": "",
+      "returns": {
+        "type": "(uint64,uint64)",
+        "desc": ""
+      }
+    }
+  ]
+}
